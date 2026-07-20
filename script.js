@@ -37,7 +37,7 @@
         "\nService: " + get("f-service") +
         "\n\nProject details:\n" + get("f-message");
       window.location.href =
-        "mailto:doconfire1@gmail.com?subject=" +
+        "mailto:info@doconfire.ie?subject=" +
         encodeURIComponent(subject) +
         "&body=" +
         encodeURIComponent(body);
