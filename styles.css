@@ -27,10 +27,9 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: "Fraunces", Georgia, serif;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.15;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.02em;
 }
 
 img { max-width: 100%; display: block; }
@@ -90,9 +89,8 @@ a { color: inherit; }
 .brand-text { line-height: 1.15; }
 .brand-text strong {
   display: block;
-  font-family: "Fraunces", Georgia, serif;
   font-size: 1.18rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.02em;
 }
 .brand-text span {
@@ -202,9 +200,15 @@ a { color: inherit; }
   padding: 5rem 0 5.5rem;
 }
 .hero h1 {
-  font-size: clamp(2.3rem, 4.6vw, 3.5rem);
+  font-size: clamp(2.3rem, 4.6vw, 3.4rem);
+  margin-bottom: 1rem;
+  max-width: 16ch;
+}
+.hero-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--red);
   margin-bottom: 1.4rem;
-  max-width: 17ch;
 }
 .lede {
   font-size: 1.12rem;
@@ -219,14 +223,6 @@ a { color: inherit; }
   align-items: center;
   margin-bottom: 2.4rem;
 }
-.hero-cred {
-  font-size: 0.88rem;
-  color: var(--muted);
-  padding-top: 1.4rem;
-  border-top: 1px solid var(--line);
-  max-width: 33rem;
-}
-
 .hero-photo { position: relative; }
 .hero-photo img {
   width: 100%;
@@ -251,9 +247,9 @@ a { color: inherit; }
   gap: 2rem;
 }
 .fact-num {
-  font-family: "Fraunces", Georgia, serif;
   font-size: 2.1rem;
-  font-weight: 500;
+  font-weight: 700;
+  letter-spacing: -0.02em;
   line-height: 1.15;
 }
 .fact-label {
@@ -291,8 +287,8 @@ a { color: inherit; }
 }
 .service-index a:hover h3 { color: var(--red); }
 .service-num {
-  font-family: "Fraunces", Georgia, serif;
   font-size: 0.95rem;
+  font-weight: 600;
   color: var(--muted);
   padding-top: 0.25rem;
 }
@@ -343,9 +339,9 @@ a { color: inherit; }
 .quote-band blockquote {
   max-width: 42rem;
   margin-inline: auto;
-  font-family: "Fraunces", Georgia, serif;
-  font-size: clamp(1.4rem, 2.6vw, 1.9rem);
-  font-weight: 500;
+  font-size: clamp(1.3rem, 2.4vw, 1.7rem);
+  font-weight: 600;
+  letter-spacing: -0.01em;
   line-height: 1.45;
 }
 .quote-band blockquote::before {
@@ -431,7 +427,7 @@ a { color: inherit; }
   counter-increment: step;
   content: "0" counter(step);
   display: block;
-  font-family: "Fraunces", Georgia, serif;
+  font-weight: 600;
   font-size: 1rem;
   color: var(--red);
   margin-bottom: 0.8rem;
