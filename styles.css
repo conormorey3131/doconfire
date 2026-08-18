@@ -581,21 +581,6 @@ a { color: inherit; }
   object-fit: contain;
   padding: 0.6rem;
 }
-.project-card-twoup {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: 100%;
-  gap: 1px;
-  background: var(--line);
-}
-.project-card-twoup img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  background: var(--paper-2);
-  padding: 0.5rem;
-  display: block;
-}
 .project-placeholder {
   aspect-ratio: 16 / 9;
   display: flex;
